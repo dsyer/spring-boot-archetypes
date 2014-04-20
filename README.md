@@ -24,6 +24,12 @@ archetypes. Manifest:
   inspect it and propose archetype candidates when you generate a new
   project. Hopefully not necessary in Central, but needs to be
   manually added to the Spring repo.
+  
+Once they are all deployed you can see them with
+
+```
+$ mvn archetype:generate -DarchetypeCatalog=http://repo.spring.io/libs-release-local
+```
 
 ## Build
 
@@ -36,6 +42,15 @@ archetypes. Manifest:
 # Just publish the simple sample
 $ ./archetypes.sh simple
 ```
+
+The catalog can be pushed to the Spring repo using buildmaster
+credentials (add the password):
+
+```
+curl -v -u 'buildmaster:\{DESede\}...' -f -d @archetype-catalog.xml -X PUT https://repo.spring.io/libs-release-local/archetype-catalog.xml
+```
+
+(See [JFrog JIRA ticket](https://www.jfrog.com/jira/browse/RTFACT-651) for details.)
 
 ## Publish to Central
 
