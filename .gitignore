@@ -1,0 +1,8 @@
+*#
+.#*
+*~
+archetypes/
+.classpath
+.project
+.settings/
+target
