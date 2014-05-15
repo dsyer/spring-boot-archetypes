@@ -6,146 +6,170 @@
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-simple-archetype</artifactId>
-      <version>1.0.0.BUILD-SNAPSHOT</version>
+      <version>1.0.2.BUILD-SNAPSHOT</version>
       <description>spring-boot-sample-simple-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-actuator-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-actuator-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-actuator-log4j-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-actuator-log4j-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-actuator-noweb-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-actuator-noweb-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-actuator-ui-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-actuator-ui-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-amqp-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-amqp-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-aop-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-aop-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-batch-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-batch-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-data-jpa-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-data-jpa-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-data-mongodb-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-data-mongodb-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-data-redis-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-data-redis-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-integration-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-integration-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-jetty-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-jetty-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-profile-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-profile-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-secure-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-secure-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-servlet-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-servlet-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-tomcat-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-tomcat-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-traditional-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-traditional-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-web-jsp-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-web-jsp-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-web-secure-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-web-secure-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-websocket-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-websocket-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-web-static-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-web-static-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-web-ui-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-web-ui-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
     <archetype>
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-sample-xml-archetype</artifactId>
-      <version>1.0.1.RELEASE</version>
+      <version>1.0.2.RELEASE</version>
       <description>spring-boot-sample-xml-archetype</description>
+      <repository>http://repo.spring.io/libs-release-local</repository>
     </archetype>
   </archetypes>
 </archetype-catalog>

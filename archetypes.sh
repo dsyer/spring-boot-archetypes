@@ -2,7 +2,7 @@
 
 set -e
 
-VERSION=1.0.1.RELEASE
+VERSION=1.0.2.RELEASE
 
 if [ -z "${SPRING_HOME}" ]; then
     # Resolve links: $0 may be a link
@@ -45,6 +45,7 @@ function archetype() {
     modules=${modules}"<module>"${name}"</module></modules>"
 
     sed -i -e "s,<modules>.*</modules>,$modules," pom.xml
+    sed -i -e "s,>[^<]*</version></parent>,>${VERSION}</version></parent>," pom.xml
     sed -i -e "s,</modelVersion>,</modelVersion>\n  <parent><groupId>org.springframework.boot</groupId><artifactId>spring-boot-archetypes</artifactId><version>$VERSION</version></parent>," ${name}/pom.xml
 
     mvn deploy # -P central
